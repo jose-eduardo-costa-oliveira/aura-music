@@ -1,0 +1,50 @@
+:root {
+    --background-azul: #0353A4;
+    --background-escuro: #002855;
+    --banner_dim: 50vw;
+}
+
+* {
+    color: #FFFFFF
+}
+
+html {
+    background-color: var(--background-azul);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.main_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_banner img {                          /* somente a img dentro da classe "main_banner" */
+    width: var(--banner_dim);               /* largura */
+    height: calc( var(--banner_dim) / 2);   /* altura */
+    background-color: gray;               /* cor de fundo */ 
+    border: 1px solid black;              /* borda: espessura, estilo, cor */
+    border-radius: 20px;                    /* "raio" da borda */
+}
+
+.btn-invite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--background-escuro);
+    border-radius: 10px;
+
+    width: 200px;
+    height:50px;
+}

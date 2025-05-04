@@ -1,7 +1,7 @@
 function BannerAuraMusic() {
     return (
-        <div>
-            <img src='' />
+        <div className="main_banner">
+            <img src=''/>
             <p>descrição</p>
         </div>
     )

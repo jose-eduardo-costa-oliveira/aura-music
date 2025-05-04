@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    flex-flow: row, nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;                   /* largura */
+    padding: 1rem 5rem;             /* margem interna */
+    background-color: #002855;    /* cor de fundo */
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar * {
+    color: #FFFFFF;
+    text-decoration: none;
+}

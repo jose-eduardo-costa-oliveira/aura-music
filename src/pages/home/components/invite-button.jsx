@@ -1,6 +1,6 @@
 function InviteButton() {
     return (
-        <div>
+        <div className="btn-invite">
             <a href='https://www.google.com'>
                 Invite
                 <img src='' />

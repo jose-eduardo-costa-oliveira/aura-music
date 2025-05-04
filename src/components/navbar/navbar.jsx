@@ -1,8 +1,9 @@
-import Menu from "./menu";
+import Menu from "../menu";
+import "./navbar.css"
 
 function Navbar() {
     return (
-        <div>
+        <div className="navbar">
             <a href=''>
                 Aura Music
             </a>
