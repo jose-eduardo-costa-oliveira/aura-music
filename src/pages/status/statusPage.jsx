@@ -1,12 +1,12 @@
 import Navbar from '../../components/navbar/navbar'
-import Status from './components/status';
+import StatusCard from './components/status';
 import Info from './components/info';
 
-function StatusPage() {
+function Status() {
     return (
         <div>
             <Navbar />
-            <Status />
+            <StatusCard />
             <div>
                 <Info />
             </div>
@@ -14,4 +14,4 @@ function StatusPage() {
     )
 }
 
-export default StatusPage;
+export default Status;

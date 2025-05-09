@@ -1,4 +1,4 @@
-function Status() {
+function StatusCard() {
     return (
         <div>
             <img src='' />
@@ -8,4 +8,4 @@ function Status() {
     )
 }
 
-export default Status;
+export default StatusCard;

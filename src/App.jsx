@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/homePage';
-import Comandos from './pages/comandos/comandosPage';
+import Comandos from './pages/comandos/comandosPage.jsx';
 import Status from './pages/status/statusPage';
 
 function App() {

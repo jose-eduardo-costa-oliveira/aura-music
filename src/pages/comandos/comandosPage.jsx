@@ -1,12 +1,13 @@
-import Navbar from '../../components/navbar/navbar'
+import Navbar from '../../components/navbar/navbar';
 import Comando from './components/comando';
+import "./"
 
 function Comandos() {
     return (
         <div>
             <Navbar />
 
-            <div>
+            <div className='comando_body'>
                 <div>
                     <p>Comandos</p>
                     <p>Descrição</p>
