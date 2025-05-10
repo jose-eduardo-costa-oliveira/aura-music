@@ -1,8 +1,11 @@
 .home_body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    justify-content: start;
+    align-items: center;
+
+    width: 100vw;
+    margin-top: 90px;
 }
 
 .main_banner {
@@ -18,6 +21,12 @@
     background-color: gray;               /* cor de fundo */ 
     border: 1px solid black;              /* borda: espessura, estilo, cor */
     border-radius: 20px;                    /* "raio" da borda */
+}
+
+.main_banner p {
+    font-size: 30px;
+    width: 50vw;
+    text-align: center;
 }
 
 .btn-invite {

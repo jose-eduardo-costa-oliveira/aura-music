@@ -3,7 +3,7 @@ import Status from "../pages/status/statusPage";
 
 function Menu() {
     return (
-        <div>
+        <div className="menuOptions">
             <a href={ComandosPage.name}>Comandos</a>
             <a href={Status.name}>Status</a>
             <a href="/">Suporte</a>

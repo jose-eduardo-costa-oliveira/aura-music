@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 100vw;
-    height: var(--navbar-vert-dim);         /* largura */
+    width: calc(100% - 100px);              /* largura */
+    height: 72px;                           /* altura */
     padding: 16px 80px;                     /* margem interna: vertical | horizontal */
     background-color: #002855;            /* cor-de-fundo */
 
@@ -17,4 +17,25 @@
 .navbar * {
     color: #FFFFFF;                       /* cor-do-texto: */
     text-decoration: none;                  /* decoração-do-texto: */
+}
+
+.menuOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 800px;
+}
+
+.menuOptions a {
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background-color: #888888;
+    padding: 5px;
+}
+
+.menuOptions a:hover {
+    background-color: #eee;
+    color: #222222;
 }

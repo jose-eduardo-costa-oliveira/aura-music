@@ -8,9 +8,6 @@ function Navbar() {
                 Aura Music
             </a>
             
-            <button>
-                <img />
-            </button>
             <Menu />
         </nav>
     )

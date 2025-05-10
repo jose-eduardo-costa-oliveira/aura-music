@@ -5,11 +5,17 @@ import './status.css'
 
 function Status() {
     return (
-        <div>
+        <div className='statusBody'>
             <Navbar />
-            <StatusCard />
-            <div>
-                <Info />
+            <div className='statusMain'>
+                <StatusCard />
+                <div className='infoCardsGrid'>
+                    <Info />
+                    <Info />
+                    <Info />
+                    <Info />
+                    <Info />
+                </div>
             </div>
         </div>
     )
