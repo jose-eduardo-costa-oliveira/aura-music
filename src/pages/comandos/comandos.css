@@ -1,0 +1,46 @@
+.comando_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: auto;
+}
+
+.comando_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 75vw;
+
+    font-size: 24px;
+}
+
+.comando_header p {
+    width: 35vw;
+}   
+
+.comp_comando {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #002855;
+
+    width: 65vw;
+    height: 80px;
+
+    margin-bottom: 20px;         /* vertical | horizontal */
+    padding: 0 5vw;              /* vertical | horizontal */
+    overflow: hidden;
+
+    font-size: 20px;
+}
+
+.comp_comando p {
+    width: 30vw;
+}

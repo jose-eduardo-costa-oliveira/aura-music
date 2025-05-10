@@ -1,6 +1,7 @@
 import Navbar from '../../components/navbar/navbar'
-import StatusCard from './components/status';
+import StatusCard from './components/statusCard';
 import Info from './components/info';
+import './status.css'
 
 function Status() {
     return (

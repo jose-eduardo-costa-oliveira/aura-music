@@ -15,10 +15,20 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 
-    height: 100vh;
+    margin-top: 90px;
+
+    height: calc(100vh - 90px);
+    font-size: 30px;
+}
+
+.home_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .main_banner {
@@ -47,8 +57,4 @@ body {
 
     width: 200px;
     height:50px;
-}
-
-.comando_body {
-    background-color: gray;
 }
