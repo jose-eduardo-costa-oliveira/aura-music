@@ -3,16 +3,16 @@ import "./navbar.css"
 
 function Navbar() {
     return (
-        <div className="navbar">
-            <a href=''>
+        <nav className="navbar">
+            <a href='/'>
                 Aura Music
             </a>
             
             <button>
-                <img src='' />
+                <img />
             </button>
             <Menu />
-        </div>
+        </nav>
     )
 }
 

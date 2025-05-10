@@ -4,15 +4,15 @@ import "./comandos.css";
 
 function Comandos() {
     return (
-        <div>
+        <div className='bodyComando'>
             <Navbar />
 
-            <div className='comando_body'>
-                <div className='comando_header'>
+            <div className='mainComando'>
+                <div className='headerComando'>
                     <p>Comandos</p>
                     <p>Descrição</p>
                 </div>
-                <div>
+                <div className='sectionComando'>
                     <Comando comando='p' descricao='Reproduza músicas por meio de pesquisas ou URL direta de uma variedade de provedores de músicas' />
                     <Comando comando='skip' descricao='Pule a música atual e começe a próxima' />
                     <Comando comando='pause' descricao='Pausar a música' />

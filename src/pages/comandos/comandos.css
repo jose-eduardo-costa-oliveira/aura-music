@@ -1,14 +1,22 @@
-.comando_body {
+.bodyComando {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    margin-top: var(--navbar-vert-dim);
+}
+
+.mainComando {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    width: 100vw;
-    height: auto;
 }
 
-.comando_header {
+.headerComando {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,11 +27,11 @@
     font-size: 24px;
 }
 
-.comando_header p {
+.headerComando p {
     width: 35vw;
 }   
 
-.comp_comando {
+.compComando {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,6 +49,6 @@
     font-size: 20px;
 }
 
-.comp_comando p {
+.compComando p {
     width: 30vw;
 }

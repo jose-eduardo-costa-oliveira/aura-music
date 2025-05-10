@@ -1,6 +1,6 @@
 function Comando(prop) {
     return (
-        <div className="comp_comando">
+        <div className="compComando">
             <p>/{prop.comando}</p>
             <p>{prop.descricao}</p>
         </div>

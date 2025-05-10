@@ -4,16 +4,17 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 100vw;                   /* largura */
-    padding: 1rem 5rem;             /* margem interna */
-    background-color: #002855;    /* cor de fundo */
+    width: 100vw;
+    height: var(--navbar-vert-dim);         /* largura */
+    padding: 16px 80px;                     /* margem interna: vertical | horizontal */
+    background-color: #002855;            /* cor-de-fundo */
 
-    position: fixed;
-    top: 0px;
-    left: 0px;
+    position: fixed;                        /* posição: fixa */
+    top: 0px;                               /* quão longe do topo da página */
+    left: 0px;                              /* quão longe à esquerda da página */
 }
 
 .navbar * {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #FFFFFF;                       /* cor-do-texto: */
+    text-decoration: none;                  /* decoração-do-texto: */
 }
